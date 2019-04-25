@@ -44,10 +44,10 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         mapView.delegate = self
         mapView.showsScale = true
         // Config status bar
-    navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.setNavigationBarHidden( true, animated: true)
-        navigationController?.navigationBar.prefersLargeTitles = false
+//    navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.setNavigationBarHidden( false, animated: true)
+//        navigationController?.navigationBar.prefersLargeTitles = false
     }
     
     // MARK: Map View Delegate
